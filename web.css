@@ -1,0 +1,75 @@
+/* This is the standard css layout*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Here insert css variables*/
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  main{
+      background-color: hsla(220, 15%, 55%, .5);
+      width:375px;
+      height: 100%;
+      padding: 5rem 0rem ;
+      margin-inline: auto;
+  }
+  .border-radius{
+    border-radius: .8rem;
+  }
+  article{
+    background-color: #fff;
+    width:82%;
+    margin-inline: auto;
+    padding:1rem 1rem 3rem 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 30px 1px hsla(218, 44%, 22%, .15);
+  }
+  article img{
+    width: 100%;
+    aspect-ratio: 1;
+  }
+  .details{
+    margin-block-start: 2rem;
+    padding-inline: 1rem;
+  }
+  .details p:first-child{
+    color:hsl(218, 44%, 22%);
+    font-size: 1.3rem;
+    font-weight:700;
+    text-shadow: 0px 0px 20px 2px hsl(220, 15%, 55%);
+  }
+  .details p{
+    margin-block-start: 1rem;
+    color: rgb(50, 50, 50);
+    font-size:.90rem;
+  }
+
+
+
+@media screen and (min-width: 578px) {
+    
+}
+@media screen and (min-width: 769px) {
+    
+}
+@media screen and (min-width: 1025px) {
+  main{
+    width:1440px;
+    height: 100%;
+    padding: 10rem 0rem ;
+    margin-inline: auto;
+  }
+  article{
+    width:22%;
+  }
+}
+@media screen and (min-width: 1201px) {
+    
+}
